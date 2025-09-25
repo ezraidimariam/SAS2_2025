@@ -6,7 +6,7 @@ int main() {
     char titre[MAX][50], auteur[MAX][50];
     int prix[MAX], quantite[MAX];
     int n = 0;
-    int option, i, j, total;
+    int option = 0, i, j, total;
     char search[50];
 
     while (1) 
